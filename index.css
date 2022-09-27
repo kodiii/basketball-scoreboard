@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    width: 500px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.col {
+   width: 155px;
+}
+
+#home-score, #guest-score  {
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px; 
+    text-align: center;
+    color: #F94F6D;
+    background-color: black;
+}
+
+.btn-points {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 5px 10px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+
+.random-player {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+#player-turn {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 25px;
+}
